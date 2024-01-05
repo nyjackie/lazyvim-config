@@ -2,6 +2,7 @@ return {
   {
     "nvim-tree/nvim-tree.lua",
     cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+    -- enabled = false,
     keys = {
       {
         "<C-n>",
@@ -90,4 +91,3 @@ return {
     end,
   },
 }
-
